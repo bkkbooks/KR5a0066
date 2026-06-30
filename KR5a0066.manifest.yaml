@@ -1,0 +1,51 @@
+canonical_identifier: bkk:krp/KR5a0066/v1
+canonical_location: https://kanripo.org/bkk/KR5a0066/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 元始洞真慈善孝子報恩成道經
+  identifiers:
+    alt_id:
+    - DZ0066
+  date: '2015-08-28 23:35:34.265293'
+  source:
+    repository: kanripo
+    path: KR5a0066
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  base_edition: HFL
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: HFL
+  label: 【正統道藏・涵芬樓版】
+- short: ZTDZ
+  label: 【正統道藏・三家本】
+- short: SJB
+assets:
+  parts:
+  - {seq: 0, filename: KR5a0066_000.yaml, hash: 'sha256:1997be3f1646d3cc255702684b868e33d718ca40b39c0e4332616a9ae3aa6082'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5a0066_000.markers.yaml, hash: 'sha256:0a02ca7298b559604fd8792ff202233dd06ab9dfa121014788f820ea5e9aabb0'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5a0066_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 1982
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:d3acaff2c8d286df4ab2298095fbb0e102f2fca656a78e01628b937b895dc432
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
